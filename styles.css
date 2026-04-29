@@ -109,3 +109,54 @@ body {
 .social-icon {
 	width: 30px;
 }
+
+#projects {
+	padding: 16px;
+	margin: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	& h2 {
+		margin-bottom: 16px;
+	}
+	& img {
+		max-width: 100%;
+	}
+	& .project-cards-container {
+		max-width: 600px;
+		& .project-card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			margin-bottom: 50px;
+			box-shadow:
+				rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+				rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+			& header {
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				padding: 16px 32px;
+			}
+
+			& p {
+				padding: 16px;
+				padding-top: 0px;
+			}
+
+			& a > img {
+				width: 30px;
+				display: block;
+			}
+
+			& ul {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				gap: 15px;
+			}
+		}
+	}
+}
