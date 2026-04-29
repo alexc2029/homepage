@@ -42,6 +42,8 @@ h4,
 h5,
 h6 {
 	text-wrap: balance;
+	font-weight: 600;
+	font-family: "Playfair Display", sans-serif;
 }
 ul {
 	list-style-type: none;
