@@ -78,7 +78,7 @@ body {
 	& > .image-container {
 		position: relative;
 		color: white;
-		width: 200px;
+		max-width: 300px;
 		text-align: center;
 		& img {
 			max-width: 100%;
