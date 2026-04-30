@@ -217,3 +217,7 @@ footer {
 		}
 	}
 }
+
+footer .social-icon {
+	--linkedin-in: #1199b6;
+}
