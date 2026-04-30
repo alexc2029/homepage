@@ -153,9 +153,18 @@ body {
 
 			& a > img {
 				width: 30px;
+				height: 25px;
 				display: block;
 			}
 
+			& .social-icon {
+				height: 25px;
+			}
+			& nav {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
 			& ul {
 				display: flex;
 				flex-direction: row;
