@@ -186,6 +186,13 @@ h3 {
 			}
 		}
 	}
+	@media (min-width: 600px) {
+		.project-cards-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 32px;
+		}
+	}
 }
 
 footer {
