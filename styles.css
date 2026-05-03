@@ -225,6 +225,25 @@ footer {
 	}
 }
 
+@media (min-width: 600px) {
+	footer {
+		background-color: #1199b6;
+		flex-direction: row;
+		padding: 16px;
+		& img {
+			padding: 20px 20px 20px 0;
+		}
+		& .contact-container {
+			& h2 {
+				text-align: left;
+			}
+			& .socials > ul {
+				justify-content: flex-start;
+			}
+		}
+	}
+}
+
 footer .social-icon {
 	--linkedin-in: #1199b6;
 }
