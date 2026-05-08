@@ -209,6 +209,11 @@ h3 {
 			gap: 32px;
 		}
 	}
+	@media (min-width: 1000px) {
+		.project-cards-container {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
 }
 
 footer {
