@@ -319,7 +319,14 @@
 				</nav>
 			</div>
 			<div class="image-container">
-				<img src="assets/me2.jpg" alt="" />
+				<picture>
+					<source media="(width<1000px)" srcset="assets/me2.jpg" />
+					<source
+						media="(width>=1000px)"
+						srcset="assets/tommy-landscape.jpg"
+					/>
+					<img src="assets/me2.jpg" alt="" />
+				</picture>
 			</div>
 		</footer>
 	</body>
