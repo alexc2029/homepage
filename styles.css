@@ -188,7 +188,7 @@ h3 {
 			& .social-icon {
 				height: 25px;
 			}
-			& nav {
+			& div {
 				display: flex;
 				align-items: center;
 				justify-content: center;
