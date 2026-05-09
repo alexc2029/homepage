@@ -238,6 +238,17 @@ footer {
 		& h2 {
 			text-align: center;
 		}
+		& img {
+			width: 30px;
+			height: 25px;
+			display: inline-block;
+			filter: invert(1) brightness(100%);
+		}
+		& p:has(img) {
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
 	}
 	& .image-container {
 		width: 100%;
