@@ -252,8 +252,10 @@ footer {
 		background-color: #1199b6;
 		flex-direction: row;
 		padding: 16px;
-		& img {
-			padding: 20px 20px 20px 0;
+		& .image-container {
+			& img {
+				padding: 20px 20px 20px 0;
+			}
 		}
 		& p {
 			width: 90%;
@@ -265,6 +267,16 @@ footer {
 			& .socials > ul {
 				justify-content: flex-start;
 			}
+		}
+	}
+}
+
+@media (min-width: 1000px) {
+	footer {
+		padding: 32px;
+		& .image-container {
+			max-width: 800px;
+			margin-left: auto;
 		}
 	}
 }
