@@ -203,6 +203,10 @@ h3 {
 		}
 	}
 	@media (min-width: 600px) {
+		h2 {
+			max-width: 1200px;
+			width: 100%;
+		}
 		.project-cards-container {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
