@@ -131,6 +131,14 @@ h3 {
 	}
 }
 
+@media (min-width: 1000px) {
+	#about-me {
+		& > .bio-container {
+			margin-left: 0;
+		}
+	}
+}
+
 .socials > ul {
 	display: flex;
 	flex-direction: row;
